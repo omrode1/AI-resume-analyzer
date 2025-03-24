@@ -1,0 +1,15 @@
+{
+  "name": "ai-resume-analyzer-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI Resume Analyzer",
+  "main": "app.py",
+  "scripts": {
+    "start": "uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "test": "pytest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^5.0.0"
+  }
+} 
