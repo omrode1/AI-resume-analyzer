@@ -1,0 +1,66 @@
+# Node.js / React Frontend
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage
+/frontend/build
+/frontend/dist
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Python / Backend
+/backend/__pycache__/
+/backend/*/__pycache__/
+/backend/*/*/__pycache__/
+/backend/*/*/*/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/*.so
+/backend/venv/
+/backend/env/
+/backend/.env
+/backend/.venv
+/backend/ENV/
+/backend/env.bak/
+/backend/venv.bak/
+
+# MongoDB
+/data/db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project specifics
+/uploads/
+/tmp/
+/logs/
+
+# Local environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Distribution / packaging
+/dist/
+/build/
+*.egg-info/
+
